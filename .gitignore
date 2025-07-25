@@ -1,0 +1,30 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/*.tfstate.backup
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+
+# Ignore override files as they are usually local-only
+*.tfvars
+*.tfvars.json
+
+
+# Sensitive files
+.terraform.lock.hcl
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+
+
+*.pem
