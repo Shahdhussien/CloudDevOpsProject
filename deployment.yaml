@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finalproject-deployment
+  namespace: ivolve
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: finalproject
+  template:
+    metadata:
+      labels:
+        app: finalproject
+    spec:
+      containers:
+      - name: finalproject
+        image: flask-final-app:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000
