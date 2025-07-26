@@ -7,7 +7,7 @@ resource "aws_security_group" "jenkins_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] # تعديل لاحقًا إذا أردت
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
   ingress {
@@ -41,7 +41,7 @@ resource "aws_instance" "jenkins" {
   monitoring = true
 
   tags = {
-    Name        = "jenkins-server"
+    Name        = "jenkins-server" 
     Role        = "jenkins"
     Environment = var.env
   }
