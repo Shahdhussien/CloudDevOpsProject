@@ -1,0 +1,14 @@
+---
+- name: Install required packages
+  yum:
+    name:
+      - git
+      - java-11-amazon-corretto
+      - docker
+    state: present
+
+- name: Enable and start Docker
+  systemd:
+    name: docker
+    enabled: yes
+    state: started
