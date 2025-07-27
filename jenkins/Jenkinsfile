@@ -1,7 +1,7 @@
 @Library('my-shared-library') _
 
 pipeline {
-    agent any
+    agent { label 'jenkins-agent-1' }
 
     stages {
         stage('Test Shared Library') {
