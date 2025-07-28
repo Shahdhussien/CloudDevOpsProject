@@ -1,0 +1,38 @@
+---
+- name: Install Java on Jenkins Agent
+  hosts: tag_jenkins_agent
+  become: yes
+  tasks:
+    - name: Install Java 11 (Amazon Corretto)
+      yum:
+        name: java-11-amazon-corretto
+        state: present
+
+    - name: Verify Java version
+      command: java -version
+      register: java_version
+      ignore_errors: true
+
+    - name: Print Java version
+      debug:
+        var: java_version.stderr_lines  
+
+    - name: Open SSH port (22) in firewall (optional)
+      shell: |
+        firewall-cmd --add-port=22/tcp --permanent || true
+        firewall-cmd --reload || true
+      ignore_errors: yes
+
+    - name: Install Docker tools
+      yum:
+        name:
+          - docker
+        state: present
+  
+
+    - name: Start and enable Docker
+      systemd:
+        name: docker
+        state: started
+        enabled: true
+
