@@ -159,7 +159,6 @@ terraform apply
 Reusable, modular infrastructure code for consistent environment creation. no imogies
 
 <br>
-<br>
 
 
 ## 4. Configuration Management with Ansible
@@ -258,7 +257,7 @@ kubectl apply -f argocd/app-argocd.yaml
 ### Outcome:
 Truly GitOps-enabled deployment — every change in Git reflects in production.
 
-
+<br>
 ## Technologies Used
 
 - Infrastructure: Terraform (modular setup, remote backend using S3 & DynamoDB)
@@ -269,7 +268,7 @@ Truly GitOps-enabled deployment — every change in Git reflects in production.
 - Deployment: ArgoCD (GitOps-based continuous deployment)
 - Cloud Platform: AWS (EC2, S3, IAM, CloudWatch)
 
-<br>
+
 <br>
 # 👩‍💻 Author
 
