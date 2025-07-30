@@ -175,8 +175,8 @@ EC2 instances are discovered automatically using AWS EC2 tags via `aws_ec2.yaml`
 ansible-playbook -i aws_ec2.yaml playbook.yml         # Configures Jenkins Master
 ansible-playbook -i aws_ec2.yaml agent-playbook.yml   # Configures Jenkins Agent
 ```
-![Ansible Agent Screenshot](screenshots/ansible-agent.jpg)
-![Ansible Master Screenshot](screenshots/ansible-master.jpg)
+![Ansible Agent Screenshot](screanshots/ansible-agent.jpg)
+![Ansible Master Screenshot](screanshots/ansible-master.jpg)
 
 ### 5. Continuous Integration with Jenkins
 
@@ -206,7 +206,7 @@ The pipeline runs automatically on code push, or manually from Jenkins.
 
 #### Screenshots:
 - Jenkins Pipeline Execution  
-  ![Jenkins Pipeline](screenshots/jenkins-pipeline1.jpg)
+  ![Jenkins Pipeline](screanshots/jenkins-pipeline1.jpg)
 
 - [pipeline File](pipeline.txt)    
 
@@ -232,7 +232,7 @@ Configure ArgoCD to automatically monitor the Git repository for manifest change
 ```bash
 kubectl apply -f argocd/app-argocd.yaml
 ```
-![ArcoCD Application](screenshots/arcocd.jpg)
+![ArcoCD Application](screanshots/arcocd.jpg)
 
 #### Outcome:
 Truly GitOps-enabled deployment — every change in Git reflects in production.
@@ -249,7 +249,7 @@ Truly GitOps-enabled deployment — every change in Git reflects in production.
 - Cloud Platform: AWS (EC2, S3, IAM, CloudWatch)
 
 
-## 👩‍💻 Author
+#👩‍💻 Author
 
 **Shahd Hussein**  
 DevOps Engineer  
