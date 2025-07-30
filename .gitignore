@@ -25,6 +25,6 @@
 .DS_Store
 Thumbs.db
 
-
+/Terraform/.*
 
 *.pem
