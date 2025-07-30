@@ -144,7 +144,7 @@ From the `terraform/` directory:
 terraform init
 terraform apply
 ```
-![Terraform Apply Screenshot](screenshots/k8s.png)
+![Terraform Apply Screenshot](screanshots/terraform.jpg)
 
 #### Outcome:
 Reusable, modular infrastructure code for consistent environment creation. no imogies
@@ -208,7 +208,7 @@ The pipeline runs automatically on code push, or manually from Jenkins.
 - Jenkins Pipeline Execution  
   ![Jenkins Pipeline](screanshots/jenkins-pipeline1.jpg)
 
-- [pipeline File](pipeline.txt)    
+- [pipeline File](Terraformpipeline.txt)    
 
 
 #### Outcome:
