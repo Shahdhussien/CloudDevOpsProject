@@ -95,9 +95,9 @@ Deploy the containerized application into a Kubernetes cluster.
 
 ### 📄 Kubernetes Manifests:
 
-* [Namespace YAML](./CI-CD/K8s/namespace.yaml)
-* [Deployment YAML](./CI-CD/K8s/deployment.yaml)
-* [Service YAML](./CI-CD/K8s/service.yaml)
+* [Namespace YAML](CI-CD/K8s/namespace.yaml)
+* [Deployment YAML](CI-CD/K8s/deployment.yaml)
+* [Service YAML](CI-CD/K8s/service.yaml)
 
 To apply:
 
@@ -124,7 +124,7 @@ NAME                                      READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/finalproject-deployment   1/1     1            1           43h
 ```
 
-![k8s](screenshots/k8s.jpg)
+![k8s](screanshots/k8s.jpg)
 
 ### 🎯 Outcome:
 
@@ -150,10 +150,10 @@ Remote backend using **S3** and **DynamoDB** for state management and team colla
 
 ### 📁 Files:
 
-* [main.tf](./terraform/main.tf)
-* [variables.tf](./terraform/variables.tf)
-* [bootstrap\_backend.tf](./terraform/bootstrap_backend.tf)
-* [Modules](./terraform/modules/)
+* [main.tf](terraform/main.tf)
+* [variables.tf](terraform/variables.tf)
+* [bootstrap\_backend.tf](terraform/bootstrap_backend.tf)
+* [Modules](terraform/modules/)
 
 To deploy infrastructure:
 
@@ -162,7 +162,7 @@ terraform init
 terraform apply
 ```
 
-![Terraform](screenshots/terraform.jpg)
+![Terraform](screanshots/terraform.jpg)
 
 ### 🎯 Outcome:
 
@@ -187,9 +187,10 @@ Auto-discovery of EC2 instances via tags using `aws_ec2.yaml`.
 
 ### 📁 Files:
 
-* [Jenkins Master Playbook](./ansible/playbook.yml)
-* [Jenkins Agent Playbook](./ansible/agent-playbook.yml)
-* [Inventory Config](./ansible/aws_ec2.yaml)
+* [Jenkins Master Playbook](ansible/playbook.yml)
+* [Jenkins Agent Playbook](ansible/agent-playbook.yml)
+* [Inventory Config](ansible/aws_ec2.yaml)
+* [Roles](ansible/roles)
 
 ### ▶️ Run:
 
@@ -198,8 +199,8 @@ ansible-playbook -i aws_ec2.yaml playbook.yml
 ansible-playbook -i aws_ec2.yaml agent-playbook.yml
 ```
 
-![Agent](screenshots/ansible-agent.jpg)
-![Master](screenshots/ansible-master.jpg)
+![Agent](screanshots/ansible-agent.jpg)
+![Master](screanshots/ansible-master.jpg)
 
 ### 🎯 Outcome:
 
@@ -235,6 +236,12 @@ Create a Jenkins pipeline to automate Docker image builds and K8s manifest updat
 ### 🖥️ Screenshots:
 
 ![Pipeline](screanshots/jenkins-pipeline1.jpg)
+
+Check The Output 
+![Pipeline](pipeline.txt)
+
+![Pipeline](screanshots/jenkins-pipeline1.jpg)
+
 
 ### 🎯 Outcome:
 
