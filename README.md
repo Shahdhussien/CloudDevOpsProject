@@ -234,7 +234,7 @@ Create a Jenkins pipeline to automate Docker image builds and K8s manifest updat
 
 ### 🖥️ Screenshots:
 
-![Pipeline](screenshots/jenkins-pipeline1.jpg)
+![Pipeline](screanshots/jenkins-pipeline1.jpg)
 
 ### 🎯 Outcome:
 
@@ -263,7 +263,7 @@ Enable GitOps by using ArgoCD to automatically deploy changes pushed to Git.
 kubectl apply -f argocd/app-argocd.yaml
 ```
 
-![ArgoCD](screenshots/arcocd.jpg)
+![ArgoCD](screanshots/arcocd.jpg)
 
 ### 🎯 Outcome:
 
@@ -288,4 +288,4 @@ Git-driven automated deployment with zero manual syncing.
 ### Shahd Hussein
 
 **DevOps Engineer**
-🔗 [LinkedIn](https://www.linkedin.com/)
+🔗 [LinkedIn](www.linkedin.com/in/shahd-hussien-ab7162339)
