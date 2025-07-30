@@ -236,7 +236,9 @@ Create a Jenkins pipeline to automate Docker image builds and K8s manifest updat
 
 ![Pipeline](screanshots/jenkins-pipeline1.jpg)
 
-Check The Output 
+Check The Output:
+
+
 ![Pipeline](pipeline.txt)
 
 
