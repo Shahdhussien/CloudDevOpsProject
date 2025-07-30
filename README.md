@@ -40,12 +40,14 @@ This project implements a fully automated DevOps pipeline for deploying a cloud-
 └──argocd/
     └── app-argocd.yaml      # ArgoCD Application config
 ```
-
+<br>
+<br>
 ## What's Included?
 
 * **Source Code**:  
   [FinalProject](https://github.com/Shahdhussien/CloudDevOpsProject)
-
+<br>
+<br>
 ## 1. Containerization with Docker
 
 ### Task:
@@ -75,7 +77,8 @@ flask-final-app                           latest         51e7f2006825   43 hours
 A lightweight and reproducible Docker image that can be pushed to Docker Hub and deployed into Kubernetes.
 
 
-
+<br>
+<br>
 
 ## 2. Container Orchestration with Kubernetes
 
@@ -120,7 +123,8 @@ deployment.apps/finalproject-deployment   1/1     1            1           43h
 ### Outcome:
 Declarative YAML manifests ready for automated deployment via ArgoCD.
 
-
+<br>
+<br>
 
 
 ## 3. Infrastructure Provisioning with Terraform
@@ -154,7 +158,8 @@ terraform apply
 ### Outcome:
 Reusable, modular infrastructure code for consistent environment creation. no imogies
 
-
+<br>
+<br>
 
 
 ## 4. Configuration Management with Ansible
@@ -187,6 +192,8 @@ ansible-playbook -i aws_ec2.yaml agent-playbook.yml   # Configures Jenkins Agent
 
 
 
+<br>
+<br>
 
 ## 5. Continuous Integration with Jenkins
 
@@ -225,7 +232,8 @@ The pipeline runs automatically on code push, or manually from Jenkins.
 A fully automated and scalable CI pipeline built on Jenkins.  
 The shared library approach promotes reusability and consistency across different services or environments.
 
-
+<br>
+<br>
 
 
 ## 6. Continuous Deployment with ArgoCD (GitOps)
@@ -261,7 +269,8 @@ Truly GitOps-enabled deployment — every change in Git reflects in production.
 - Deployment: ArgoCD (GitOps-based continuous deployment)
 - Cloud Platform: AWS (EC2, S3, IAM, CloudWatch)
 
-
+<br>
+<br>
 # 👩‍💻 Author
 
 **Shahd Hussein**  
