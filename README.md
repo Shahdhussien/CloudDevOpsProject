@@ -274,11 +274,11 @@ Truly GitOps-enabled deployment — every change in Git reflects in production.
 
 # 👩‍💻 Author
 
-**Shahd Hussein**  
+### Shahd Hussein**  
 
-DevOps Engineer  
+### DevOps Engineer  
 
-• [LinkedIn](https://www.linkedin.com/)
+### • [LinkedIn](https://www.linkedin.com/)
 
 
 
