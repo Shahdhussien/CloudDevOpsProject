@@ -113,7 +113,7 @@ NAME                                      READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/finalproject-deployment   1/1     1            1           43h
 ```
 
-![Docker Build Screenshot](screenshots/k8s.png)
+![k8s](screanshots/k8s.jpg)
 
 #### Outcome:
 Declarative YAML manifests ready for automated deployment via ArgoCD.
