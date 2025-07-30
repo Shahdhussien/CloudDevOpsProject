@@ -95,9 +95,9 @@ Deploy the containerized application into a Kubernetes cluster.
 
 ### 📄 Kubernetes Manifests:
 
-* [Namespace YAML](CI-CD/K8s/namespace.yaml)
-* [Deployment YAML](CI-CD/K8s/deployment.yaml)
-* [Service YAML](CI-CD/K8s/service.yaml)
+* [Namespace YAML](kubernetes/namespace.yaml)
+* [Deployment YAML](kubernetes/deployment.yaml)
+* [Service YAML](kubernetes/service.yaml)
 
 To apply:
 
@@ -150,10 +150,9 @@ Remote backend using **S3** and **DynamoDB** for state management and team colla
 
 ### 📁 Files:
 
-* [main.tf](terraform/main.tf)
-* [variables.tf](terraform/variables.tf)
-* [bootstrap\_backend.tf](terraform/bootstrap_backend.tf)
-* [Modules](terraform/modules/)
+* [main.tf](Terraform/main.tf)
+* [variables.tf](Terraform/variables.tf)
+* [Modules](Terraform/modules)
 
 To deploy infrastructure:
 
@@ -239,8 +238,6 @@ Create a Jenkins pipeline to automate Docker image builds and K8s manifest updat
 
 Check The Output 
 ![Pipeline](pipeline.txt)
-
-![Pipeline](screanshots/jenkins-pipeline1.jpg)
 
 
 ### 🎯 Outcome:
