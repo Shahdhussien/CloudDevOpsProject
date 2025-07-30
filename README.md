@@ -75,6 +75,8 @@ flask-final-app                           latest         51e7f2006825   43 hours
 A lightweight and reproducible Docker image that can be pushed to Docker Hub and deployed into Kubernetes.
 
 
+
+
 ## 2. Container Orchestration with Kubernetes
 
 ### Task:
@@ -118,6 +120,9 @@ deployment.apps/finalproject-deployment   1/1     1            1           43h
 ### Outcome:
 Declarative YAML manifests ready for automated deployment via ArgoCD.
 
+
+
+
 ## 3. Infrastructure Provisioning with Terraform
 
 ### Task:
@@ -150,6 +155,8 @@ terraform apply
 Reusable, modular infrastructure code for consistent environment creation. no imogies
 
 
+
+
 ## 4. Configuration Management with Ansible
 
 ### Task:
@@ -177,6 +184,9 @@ ansible-playbook -i aws_ec2.yaml agent-playbook.yml   # Configures Jenkins Agent
 ```
 ![Ansible Agent Screenshot](screanshots/ansible-agent.jpg)
 ![Ansible Master Screenshot](screanshots/ansible-master.jpg)
+
+
+
 
 ## 5. Continuous Integration with Jenkins
 
@@ -214,6 +224,9 @@ The pipeline runs automatically on code push, or manually from Jenkins.
 ### Outcome:
 A fully automated and scalable CI pipeline built on Jenkins.  
 The shared library approach promotes reusability and consistency across different services or environments.
+
+
+
 
 ## 6. Continuous Deployment with ArgoCD (GitOps)
 
