@@ -8,7 +8,7 @@ This project implements a fully automated DevOps pipeline for deploying a cloud-
 
 ## 🗺️ High-Level Architecture
 
-<!-- ![[Project Architecture]](screenshots/Architecture.jpg) -->
+![[Project Architecture]](screanshots/Arch.png)
 
 ---
 
